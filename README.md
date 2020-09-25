@@ -15,7 +15,8 @@ We had a nearly complete HTML file where just added a feature to enable the anim
 ### Core Assignment: D3 Dabbler (Required Assignment)
 
 Final result nearly similar to the provided example
-![4-scatter](Images/4-scatter.jpg)
+
+[4-scatter](Images/4-scatter.jpg)
 
 
 ### Bonus: Impress the Boss (Optional Assignment)
