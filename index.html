@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>D3Times</title>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/d3Style.css">
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-12">
+        <h1>D3Times</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12  col-md-9">
+        <div id="scatter">
+          <!-- We append our chart here. -->
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12  col-md-9">
+        <div class="article">
+          <h2>Correlations Discovered Between Health Indicators and US State Demographic Features</h2>
+          <p>By clicking into the Graph it is possible to visually dinamically the different relationships between 
+            betwen 3 Health Indicators (Obesity, Smoking Prevalence and No Healthcare Assistance) and 
+            3 Socio-Economic Indicators (Poverty, Age and Household Income) for each US State. This represents a total of 9 relationships that
+            will be easily compared. 
+          </p>
+
+          <p>One way to help this analysis is by fixing one of the Socio-Economic Indicators and observe the variations when changing the 
+            Health Indicators. This way it is possible to quickly draw some general conclusions:
+            <p> - <b>Poverty</b> is correlated positively with all the Health Indicators, tendentially the poorer is the State
+              the more likely to find obese people, smokers and lack of healthcare assistance.
+            </p>
+            <p> - Concerning the <b>Age</b>, it's not as clear to withdraw a tendency however Obesity and Smoking seem to 
+            tendentially affect less "younger" state, while some of the states with older population are more covered with 
+            healthcare, which would be expectable, however with some exceptions and dim difference</p>
+            <p></p>
+            <p> - When we reach <b>Household income</b>, the graph shows us instead a negative tendency,
+            higher is the household income the less is the propensity for obesity, smoking or to have no 
+            healthcare access</p>
+            <p></p>
+
+
+          </p>
+
+          <p>Some outliers are easily spotted in the graph where it is possible to validate the data with the help of common knowledge.
+            <p>- Utah remarkable young age and its notorious Mormon Population</p>
+            <p>- The same can be seen with Smoking, the more conservative Utah presenting less</p>
+            <p>- Texas with the lowest healthcare protection and its Republican reputation </p>
+            <p>- Massachusetts in contrast present very high healthcare protection being a state linked to more left leaning voter </p>
+           
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer-->
+  <div id="footer">
+    <p>The Coding Boot Camp WA&copy;2020</p>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script type="text/javascript" src="assets/js/app.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
+
+</body>
+
+</html>
