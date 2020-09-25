@@ -16,20 +16,18 @@ We had a nearly complete HTML file where just added a feature to enable the anim
 
 Final result nearly similar to the provided example
 
-[4-scatter](Images/4-scatter.jpg)
+![4-scatter](Images/4-scatter.jpg)
 
 
 ### Bonus: Impress the Boss (Optional Assignment)
 
-Final result nearly similar to the provided example
+Final animated result got nearly similar to the provided example
 
 ![7-animated-scatter](Images/7-animated-scatter.gif)
 
 #### 1. More Data, More Dynamics
 
-You're going to include more demographics and more risk factors. Place additional labels in your scatter plot and give them click events so that your users can decide which data to display. Animate the transitions for your circles' locations as well as the range of your axes. Do this for two risk factors for each axis. Or, for an extreme challenge, create three for each axis.
-
-* Hint: Try binding all of the CSV data to your circles. This will let you easily determine their x or y values when you click the labels.
+More data was included to incorporate 3 factors per axis (resulting in 9 graphs in total)
 
 #### 2. Incorporate d3-tip
 
